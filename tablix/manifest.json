@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tablix",
+  "version": "1.0.0",
+  "description": "Extract HTML tables from webpages and download them as CSV files.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tablix - Extract Tables"
+  }
+}

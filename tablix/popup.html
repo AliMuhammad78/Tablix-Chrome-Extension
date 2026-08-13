@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablix</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">T</div>
+    <div>
+      <h1>Tablix</h1>
+      <p>Table extractor</p>
+    </div>
+  </header>
+
+  <main>
+    <button id="scanBtn" class="primary">🔍 Scan Page</button>
+
+    <div id="status" class="status">Click Scan Page to find tables.</div>
+
+    <section id="results" class="hidden">
+      <div class="summary">
+        <strong id="tableCount">0 tables</strong>
+        <button id="downloadAllBtn" class="secondary">⬇ Download All</button>
+      </div>
+      <div id="tableList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Tablix v1.0</span>
+    <span>HTML → CSV</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
